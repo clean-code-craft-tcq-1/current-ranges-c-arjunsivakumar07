@@ -23,7 +23,7 @@ TEST_CASE("To check if the samples are in range") {
   REQUIRE(NumofCurrentReadings_InRange(listofvalues,CurrentRange,BreachType) == 4);
 }
 
-/* FAILING TESTCASE*/
+/* FAILING TESTCASE
 
 TEST_CASE("To check if the samples are out range") {
     int CurrentRange[] = {3, 3, 5, 6};
@@ -32,4 +32,4 @@ TEST_CASE("To check if the samples are out range") {
   REQUIRE(NumofCurrentReadings_InRange(listofvalues,CurrentRange,BreachType) == 7);
 }
 
-
+*/
