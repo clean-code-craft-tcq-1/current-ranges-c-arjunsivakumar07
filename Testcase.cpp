@@ -6,14 +6,14 @@
 
 TEST_CASE("To check empty BMS Current readings range") {
     int BMS_Current_Range[] = {};
-    int numofReadings = sizeof(BMS_Current_Range) / sizeof(BMS_Current_Range[0]);
-  REQUIRE(CurrentReadingValidity(numofReadings,BMS_Current_Range) == Invalid_Range);
+    int numofreadings = sizeof(BMS_Current_Range) / sizeof(BMS_Current_Range[0]);
+  REQUIRE(CurrentReadingValidity(numofreadings,BMS_Current_Range) == RangeInvalid);
 }
 
 TEST_CASE("To check valid BMS Current readings range") {
     int BMS_Current_Range[] = {1,2,3,4,5};
-    int numofReadings = sizeof(BMS_Current_Range) / sizeof(BMS_Current_Range[0]);
-  REQUIRE(CurrentReadingValidity(numofReadings,BMS_Current_Range) == Valid_Range);
+    int numofreadings = sizeof(BMS_Current_Range) / sizeof(BMS_Current_Range[0]);
+  REQUIRE(CurrentReadingValidity(numofreadings,BMS_Current_Range) == RangeValid);
 }
 
 TEST_CASE("To check if the samples are in range") {
