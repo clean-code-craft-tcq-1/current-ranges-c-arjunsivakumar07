@@ -41,16 +41,22 @@ Range, Readings
 
 Start test-driven development:
 
-1. Establish quality parameters for your project: What is the maximum complexity you would allow? How much duplication would you consider unacceptable? What is the coverage you'll aim for?
+1. Establish quality parameters for your project: What is the maximum complexity you would allow? 4 ccn
+2. How much duplication would you consider unacceptable? 0 duplications
+3. What is the coverage you'll aim for?
 Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
-1. Write the smallest possible failing test.
+4. Write the smallest possible failing test.
 
-1. Write the minimum amount of code that'll make it pass.
+5. Write the minimum amount of code that'll make it pass.
 
-1. Write the next failing test.
+6. Write the next failing test.
 
 Implement one failing test and at least one passing test:
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+- Passing Test cases
+1.Testcase to check validity of the input Current readings. 
+2.Testcase to calculate total number of readings in given range.
+
+- Failing Test cases
+1.Testcase to calculate total number of readings in given range
