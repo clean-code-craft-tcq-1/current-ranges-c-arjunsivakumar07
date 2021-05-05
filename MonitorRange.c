@@ -3,7 +3,7 @@
 
 ValidityOfRange CurrentReadingValidity(int numofreadings, int *BMS_Current_Range)
 {
-	if((numofReadings== 0) || (BMS_Current_Range == NULL))
+	if((numofreadings== 0) || (BMS_Current_Range == NULL))
     {
         return RangeInvalid;
     }
