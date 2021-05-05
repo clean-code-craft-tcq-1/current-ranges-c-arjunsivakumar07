@@ -5,7 +5,7 @@ typedef enum
 {
     RangeInvalid,
     RangeValid
-}Range_Validity;
+}ValidityOfRange;
 
 ValidityOfRange CurrentReadingValidity(int numofreadings, int *BMS_Current_Range);
 int NumofCurrentReadings_InRange(int listofvalues,int *CurrentRange,int *BreachType);
